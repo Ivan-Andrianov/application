@@ -1,0 +1,67 @@
+.hi{
+    height:700px;
+    width:2000px;
+}
+body{
+    background-image: url("D:/YandexBrowser/image 1 (1).png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center center;
+margin: 0; /* Убираем отступы */
+
+}
+html 
+{
+     height: 100%; 
+    }
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+}
+pre{
+  
+color:#0F5E12;
+font-size:50px;
+
+
+}
+small{
+font-size:20px;
+}
+a.blubtn {
+width:200px;
+text-align:center;
+display:block;
+font-family: arial;
+text-decoration: none;
+font-weight: 300;
+font-size: 30px;
+border: #0fa4af 1px solid;
+color: #0fa4af;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+margin-top:190px;
+transition: .5s;
+border-radius: 0px;
+
+}
+a.blubtn:hover {
+top: 5px;
+transition: .5s;
+color: #0F5E12;
+border: #0F5E12 1px solid;
+border-radius: 10px;
+}
+a.blubtn:active {
+color: #000;
+border: #1A1A1A 1px solid;
+transition: .07s;
+background-color: #FFF;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
